@@ -5,46 +5,68 @@ function ProductsPage(props){
 const [cartItems, setCartItems] = useState([]);
 const [showModal, setShowModal] = useState(false);
 const [selectedSize, setSelectedSize] = useState({});
-const [totalPrice, setTotalPrice] = useState(0); // New state for total price
+const [totalPrice, setTotalPrice] = useState(0); 
 
-  const addToCart = (name, price) => {
-    let newItem;
-    if (name.includes("T-Shirt") || name.includes("Hoodie")) {
-      newItem = { name, price, size: selectedSize[name] || "S", quantity: 1 };
-    } else {
-      newItem = { name, price, quantity: 1 };
-    }
-    setCartItems((prevCartItems) => [...prevCartItems, newItem]);
-  };
+const addToCart = (name, price) => {
+  let newItem;
+  if (name.includes("T-Shirt") || name.includes("Hoodie")) {
+    newItem = {
+      name,
+      price,
+      size: selectedSize[name] || "S",
+      quantity: 1,
+    };
+  } else {
+    newItem = { name, price, quantity: 1 };
+  }
 
-  const calculateTotalPrice = () => {
-    return cartItems.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2);
-  };
+  const updatedCartItems = [...cartItems, newItem];
+  setCartItems(updatedCartItems);
+  setTotalPrice(Number(calculateTotalPrice().toFixed(2))); 
+  localStorage.setItem("cartItems", JSON.stringify(updatedCartItems));
+};
 
-  const clearCart = () => {
-    setCartItems([]);
-  };
+const calculateTotalPrice = () => {
+  return cartItems.reduce(
+    (total, item) =>
+      total + Number((item.price * item.quantity).toFixed(2)),
+    0
+  );
+};
 
-  const updateSelectedSize = (itemName, size) => {
-    setSelectedSize({ ...selectedSize, [itemName]: size });
-  };
+const clearCart = () => {
+  setCartItems([]);
+  localStorage.removeItem("cartItems");
+};
 
-  const handleQuantityChange = (index, change) => {
-    const newCartItems = [...cartItems];
-    newCartItems[index].quantity += change;
+const updateSelectedSize = (itemName, size) => {
+  setSelectedSize({ ...selectedSize, [itemName]: size });
+};
+
+const handleQuantityChange = (index, change) => {
+  const newCartItems = [...cartItems];
+  newCartItems[index].quantity += change;
+
+  if (newCartItems[index].quantity < 0) {
+    newCartItems[index].quantity = 0;
+  }
+
+  setCartItems(newCartItems);
+  setTotalPrice(Number(calculateTotalPrice().toFixed(2))); 
+};
+
+useEffect(() => {
+  setTotalPrice(Number(calculateTotalPrice().toFixed(2))); 
+}, [cartItems]);
+
+useEffect(() => {
+  const storedCartItems = localStorage.getItem("cartItems");
+  if (storedCartItems) {
+    setCartItems(JSON.parse(storedCartItems));
+  }
+}, []);
+
   
-    if (newCartItems[index].quantity < 0) {
-      newCartItems[index].quantity = 0;
-    }
-  
-    setCartItems(newCartItems);
-    setTotalPrice(calculateTotalPrice()); 
-  };
-  useEffect(() => {
-    setTotalPrice(calculateTotalPrice());
-  }, [cartItems]);
-
-
 return(
 <>
   <div className="productsHeroContain">
