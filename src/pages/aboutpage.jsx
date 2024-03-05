@@ -6,7 +6,7 @@ return(
   <>
   <div className="aboutHerocontain">
     <div className="heroAboutImg">
-      <img src="/heroimageaboutpage.png"></img>
+      <img src="public/heroimageaboutpage.png"></img>
     </div>{/*heroAboutImg*/}
   </div>{/*aboutHerocontain*/}
 
