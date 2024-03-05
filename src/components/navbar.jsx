@@ -21,7 +21,7 @@ return(
     <header>
       <div className="navLogo">
         <NavLink to="/">
-          <img src="public/logo.png"/>
+          <img src="/logo.png"/>
         </NavLink>
         </div>
         <button className="menuButton" onClick={handleDrawerOpen}>
@@ -58,7 +58,7 @@ return(
   <div className="navContain">
     <div className="navFlex">
     <div className="navLogo">
-      <NavLink to ="/"><img src="public/logo.png"></img></NavLink>     
+      <NavLink to ="/"><img src="/logo.png"></img></NavLink>     
     </div>{/*navLogo*/}
     <div className="textLinksContain">
         <NavLink to="products">

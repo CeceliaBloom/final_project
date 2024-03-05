@@ -6,7 +6,7 @@ return(
   <>
   <div className="aboutHerocontain">
     <div className="heroAboutImg">
-      <img src="public/heroimageaboutpage.png"></img>
+      <img src="/heroimageaboutpage.png"></img>
     </div>{/*heroAboutImg*/}
   </div>{/*aboutHerocontain*/}
 
@@ -18,7 +18,7 @@ return(
   <div className="aboutCompanyContain">
     <div className="companyFlex">
       <div className="companyImg">
-        <img src ="public/aboutpageimg.jpg"></img>
+        <img src ="/aboutpageimg.jpg"></img>
       </div>{/*companyImg*/}
       <div className="compInfoTextContain">
         <div className="storyContain">
@@ -49,11 +49,11 @@ return(
             <div className="connectSocails">
               <div className="aInstagram">
           <a target="_blank href">
-            <img src="public/instagram.png"></img></a>
+            <img src="/instagram.png"></img></a>
             </div>
           <div className="aEmail">
           <a target="_blank href">
-            <img src="public/email.png">
+            <img src="/email.png">
             </img></a>
             </div>
             </div>{/*connectSocails*/}

@@ -7,17 +7,17 @@ return(
   <footer>
     <div className="footerContain">  
       <div className="footerLogo">
-      <img src="public/logo.png"></img>    
+      <img src="/logo.png"></img>    
       </div>{/*footerLogo*/}
         <div className="contactInfoContain">
           <div className="instagram">
           <a target="_blank href">
-            <img src="public/instagram.png"></img></a>
+            <img src="/instagram.png"></img></a>
           </div>{/*instagram*/}
 
           <div className="email">
           <a target="_blank href">
-            <img src="public/email.png">
+            <img src="/email.png">
             </img></a>
           </div>{/*email*/}
         </div>{/*contactInfoContain*/}

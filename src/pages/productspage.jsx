@@ -71,7 +71,7 @@ return(
 <>
   <div className="productsHeroContain">
     <div className="productHeroImg">
-      <img src="public/heroimageproductspage.jpg"></img>
+      <img src="/heroimageproductspage.jpg"></img>
     </div>{/*productHeroImg*/}
   </div>{/*productsHeroContain*/}
 <div className="testContain">
@@ -134,7 +134,7 @@ return(
         <div className="vpCol">
           <div className="vpCard">
             <div className="vpImg">
-              <img src="public/allflavorspack.png"></img>
+              <img src="/allflavorspack.png"></img>
             </div>{/*vpImg*/}
             <div className="vpCardBlock">
               <div className="vpCardTitle">
@@ -150,7 +150,7 @@ return(
         <div className="vpCol">
           <div className="vpCard">
             <div className="vpImg">
-              <img src="public/carandlemonpack.png"></img>
+              <img src="/carandlemonpack.png"></img>
             </div>{/*vpImg*/}
             <div className="vpCardBlock">
               <div className="vpCardTitle">
@@ -166,7 +166,7 @@ return(
         <div className="vpCol">
           <div className="vpCard">
             <div className="vpImg">
-              <img src="public/carandmintpack.png"></img>
+              <img src="/carandmintpack.png"></img>
             </div>{/*vpImg*/}
             <div className="vpCardBlock">
               <div className="vpCardTitle">
@@ -187,7 +187,7 @@ return(
       <div className="sfCol">
         <div className="sfCard1">
           <div className="sfImg">
-            <img src="public/mint.png"></img>
+            <img src="/mint.png"></img>
           </div>{/*sfImg*/}
           <div className="sfCardBlock">
             <div className="sfCardTitle">
@@ -203,7 +203,7 @@ return(
       <div className="sfCol">
         <div className="sfCard2">
           <div className="sfImg">
-            <img src="public/caramel.png"></img>
+            <img src="/caramel.png"></img>
           </div>{/*sfImg*/}
           <div className="sfCardBlock">
             <div className="sfCardTitle">
@@ -219,7 +219,7 @@ return(
         <div className="sfCol">
           <div className="sfCard3">
             <div className="sfImg">
-              <img src="public/lemon.png"></img>
+              <img src="/lemon.png"></img>
             </div>{/*sfImg*/}
             <div className="sfCardBlock">
               <div className="sfCardTitle">
@@ -239,7 +239,7 @@ return(
         <div className="merchCol">
           <div className="merchCard1">
             <div className="merchImg">
-              <img src="public/mintshirt.png"></img>
+              <img src="/mintshirt.png"></img>
             </div>{/*merchImg*/}
             <div className="merchCardBlock">
               <div className="merchCardTitle">
@@ -261,7 +261,7 @@ return(
         <div className="merchCol">
           <div className="merchCard2">
             <div className="merchImg">
-              <img src="public/caramelshirt.png"></img>
+              <img src="/caramelshirt.png"></img>
             </div>{/*merchImg*/}
             <div className="merchCardBlock">
               <div className="merchCardTitle">
@@ -284,7 +284,7 @@ return(
         <div className="merchCol">
           <div className="merchCard3">
             <div className="merchImg">
-              <img src="public/lemonshirt.png"></img>
+              <img src="/lemonshirt.png"></img>
             </div>{/*merchImg*/}
             <div className="merchCardBlock">
               <div className="merchCardTitle">
@@ -308,7 +308,7 @@ return(
         <div className="merchCol">
           <div className="merchCard4">
             <div className="merchImg">
-              <img src="public/minthoodie.png"></img>
+              <img src="/minthoodie.png"></img>
             </div>{/*merchImg*/}
             <div className="merchCardBlock">
               <div className="merchCardTitle">
@@ -331,7 +331,7 @@ return(
         <div className="merchCol">
           <div className="merchCard5">
             <div className="merchImg">
-              <img src="public/caramelhoodie.png"></img>
+              <img src="/caramelhoodie.png"></img>
             </div>{/*merchImg*/}
             <div className="merchCardBlock">
               <div className="merchCardTitle">
@@ -353,7 +353,7 @@ return(
         <div className="merchCol">
           <div className="merchCard6">
             <div className="merchImg">
-              <img src="public/lemonhoodie.png"></img>
+              <img src="/lemonhoodie.png"></img>
             </div>{/*merchImg*/}
             <div className="merchCardBlock">
               <div className="merchCardTitle">

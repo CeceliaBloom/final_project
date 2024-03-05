@@ -7,15 +7,15 @@ import "./slider.css";
 
 function HomePage(props){
     const images = [
-        "public/galleryimag.jpg",
-        "public/galleryimg2.jpg",
-        "public/galleryimage3.jpg",]
+        "/galleryimag.jpg",
+        "/galleryimg2.jpg",
+        "/galleryimage3.jpg",]
         
 return(
   <>
     <div className="homeHeroContain">
       <div className="heroImg">
-      <img src="public/heroimghomepage.jpg"></img>
+      <img src="/heroimghomepage.jpg"></img>
       </div>
     </div>{/*homeHeroContain*/}
 
@@ -25,15 +25,15 @@ return(
       </div>{/*hFlavorsText*/}
       <div className="ingHContain">
         <div className="mintHGroup">
-          <img src="public/mintchiphomepage.png"style={{ width:"33%"}}></img>
+          <img src="/mintchiphomepage.png"style={{ width:"33%"}}></img>
         </div>{/*mintHGroup*/}
 
         <div className="lemonHGroup">
-          <img src="public/lemonhomepage.png"style={{ width:"33%"}}></img>
+          <img src="/lemonhomepage.png"style={{ width:"33%"}}></img>
         </div>{/*lemonHGroup*/}
 
         <div className="caramelHGroup">
-          <img src="public/vandchomepage.png"style={{ width:"33%"}}>
+          <img src="/vandchomepage.png"style={{ width:"33%"}}>
           </img>
         </div>{/*caramelHGroup*/}
       </div>{/*ingHContain*/}
