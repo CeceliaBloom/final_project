@@ -5,7 +5,7 @@ function AboutPage (props){
 return(
   <>
   <div className="aboutHerocontain">
-    <div className="/heroAboutImg">
+    <div className="heroAboutImg">
       <img src="heroimageaboutpage.png"></img>
     </div>{/*heroAboutImg*/}
   </div>{/*aboutHerocontain*/}
