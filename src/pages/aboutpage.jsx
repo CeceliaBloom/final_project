@@ -5,8 +5,8 @@ function AboutPage (props){
 return(
   <>
   <div className="aboutHerocontain">
-    <div className="heroAboutImg">
-      <img src="dist/heroimageaboutpage.png"></img>
+    <div className="/heroAboutImg">
+      <img src="heroimageaboutpage.png"></img>
     </div>{/*heroAboutImg*/}
   </div>{/*aboutHerocontain*/}
 
@@ -18,7 +18,7 @@ return(
   <div className="aboutCompanyContain">
     <div className="companyFlex">
       <div className="companyImg">
-        <img src ="aboutpageimg.jpg"></img>
+        <img src ="/aboutpageimg.jpg"></img>
       </div>{/*companyImg*/}
       <div className="compInfoTextContain">
         <div className="storyContain">
@@ -49,11 +49,11 @@ return(
             <div className="connectSocails">
               <div className="aInstagram">
           <a target="_blank href">
-            <img src="instagram.png"></img></a>
+            <img src="/instagram.png"></img></a>
             </div>
           <div className="aEmail">
           <a target="_blank href">
-            <img src="email.png">
+            <img src="/email.png">
             </img></a>
             </div>
             </div>{/*connectSocails*/}
