@@ -25,15 +25,15 @@ return(
       </div>{/*hFlavorsText*/}
       <div className="ingHContain">
         <div className="mintHGroup">
-          <img src="mintchiphomepage.png"style={{ width:"33%"}}></img>
+          <img src="https://CeceliaBloom.github.io/final_project/mintchiphomepage.png"style={{ width:"33%"}}></img>
         </div>{/*mintHGroup*/}
 
         <div className="lemonHGroup">
-          <img src="lemonhomepage.png"style={{ width:"33%"}}></img>
+          <img src="https://CeceliaBloom.github.io/final_project/lemonhomepage.png"style={{ width:"33%"}}></img>
         </div>{/*lemonHGroup*/}
 
         <div className="caramelHGroup">
-          <img src="vandchomepage.png"style={{ width:"33%"}}>
+          <img src="https://CeceliaBloom.github.io/final_project/vandchomepage.png"style={{ width:"33%"}}>
           </img>
         </div>{/*caramelHGroup*/}
       </div>{/*ingHContain*/}

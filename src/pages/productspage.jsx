@@ -71,7 +71,7 @@ return(
 <>
   <div className="productsHeroContain">
     <div className="productHeroImg">
-      <img src="https://CeceliaBloom.github.io/final_project.heroimageproductspage.jpg"></img>
+      <img src="https://CeceliaBloom.github.io/final_project/heroimageproductspage.jpg"></img>
     </div>{/*productHeroImg*/}
   </div>{/*productsHeroContain*/}
 <div className="testContain">
