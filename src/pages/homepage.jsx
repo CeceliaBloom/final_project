@@ -7,15 +7,15 @@ import "./slider.css";
 
 function HomePage(props){
     const images = [
-        "galleryimag.jpg",
-        "galleryimg2.jpg",
-        "galleryimage3.jpg",]
+        "https://CeceliaBloom.github.io/final_project/galleryimag.jpg",
+        "https://CeceliaBloom.github.io/final_project/galleryimg2.jpg",
+        "https://CeceliaBloom.github.io/final_project/galleryimage3.jpg",]
         
 return(
   <>
     <div className="homeHeroContain">
       <div className="heroImg">
-      <img src="heroimghomepage.jpg"></img>
+      <img src="https://CeceliaBloom.github.io/final_project/heroimghomepage.jpg"></img>
       </div>
     </div>{/*homeHeroContain*/}
 

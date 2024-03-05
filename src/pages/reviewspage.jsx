@@ -33,7 +33,7 @@ return(
 
 <div className="reviewsHeroContain">
         <div className="heroImgContain">
-          <img src="reviwspageheroimg.jpg"></img>
+          <img src="https://CeceliaBloom.github.io/final_project/reviwspageheroimg.jpg"></img>
         </div>{/*heroImgContain*/}
       </div>{/*reviewsHeroContain*/}
       <div className="reviewsText">
