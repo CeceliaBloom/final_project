@@ -113,7 +113,7 @@ return(
           </div>
           ))}
         </div>
-        <div className="totalPrice">Total price: ${calculateTotalPrice()}</div>
+        <div className="totalPrice">Total price: ${calculateTotalPrice().toFixed(2)}</div>
         </div>{/*modalBody*/}
 
 
