@@ -136,7 +136,7 @@ Start the server
 ├── node_modules
 ├── public
 │   ├── images
-│       ├── (your image files)
+│   
 │
 ├── src
 │   ├── components
