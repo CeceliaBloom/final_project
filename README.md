@@ -57,7 +57,7 @@ Welcome to our soda company website! Our goal is to provide a delightful online 
 ### Features
 
 - **Homepage:** Discover our latest and featured products.
-- **Products Page:** Explore detailed information about each soda variant we offer.
+- **Products Page:** Explore a variety of purchasing options to curate your perfect soda experience. Choose from enticing variety packs featuring different flavors, opt for single-flavor packs for your favorites, and discover exclusive merchandise like hoodies and t-shirts inspired by our distinctive soda flavors. Dive into a world of taste and style with our diverse range of offerings.
 - **Review Page:** Read and explore a collection of pre-written reviews, dynamically fetched from a SQL table. While users can't submit new reviews, they can enjoy a variety of perspectives on our sodas.
 - **About Page:** Learn more about our soda company and its history.
 
